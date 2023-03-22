@@ -1619,6 +1619,7 @@ recipemap.diesel_generator.name=Diesel Generator
 recipemap.gas_turbine.name=Gas Turbine
 recipemap.steam_turbine.name=Steam Turbine
 recipemap.semi_fluid_generator.name=Semi Fluid Fuels
+recipemap.naquadah_reactor.name=Naquadah Reactor
 
 behavior.magnifying_glass.description=Use on surface rock to inspect it
 behavior.magnifying_glass.inspect=This rock contains %s
@@ -1876,6 +1877,11 @@ gregtech.machine.magic_energy_absorber.name=Magic Energy Absorber
 gregtech.machine.magic_energy_absorber.tooltip=Max Voltage OUT: §a2048 §7(§aEV§7)/nCollects energy from ender crystals in 64 blocks/nEach ender crystal adds 32 EU/t to output/nPlace Dragon Egg on top to amplify output/n/nWhen amplified:/nEach ender crystal adds 128 EU/t
 gregtech.machine.magic_energy_converter.name=Magic Energy Converter
 gregtech.machine.magic_energy_converter.tooltip=Voltage OUT: §a128 §7(§aMV§7)/nCollects essentia from containers within 16 blocks/nConsumes 20 Potentia per second
+
+gregtech.machine.naquadah_reactor.ev.name=Naquadah Reactor Mark I
+gregtech.machine.naquadah_reactor.iv.name=Naquadah Reactor Mark II
+gregtech.machine.naquadah_reactor.luv.name=Naquadah Reactor Mark III
+gregtech.machine.naquadah_reactor.zpm.name=Naquadah Reactor Mark IV
 
 # Machines
 gregtech.machine.block_breaker.lv.name=Basic Block Breaker

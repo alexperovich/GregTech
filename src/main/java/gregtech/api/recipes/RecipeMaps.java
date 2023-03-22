@@ -694,6 +694,9 @@ public class RecipeMaps {
     @ZenProperty
     public static final FuelRecipeMap GAS_TURBINE_FUELS = new FuelRecipeMap("gas_turbine");
 
+    @ZenProperty
+    public static final FuelRecipeMap NAQUADAH_REACTOR_FUELS = new FuelRecipeMap("naquadah_reactor");
+
 
     @ZenProperty
     public static final FuelRecipeMap STEAM_TURBINE_FUELS = new FuelRecipeMap("steam_turbine");

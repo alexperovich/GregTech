@@ -102,6 +102,7 @@ public class MetaTileEntities {
     public static SimpleGeneratorMetaTileEntity[] DIESEL_GENERATOR = new SimpleGeneratorMetaTileEntity[4];
     public static SimpleGeneratorMetaTileEntity[] STEAM_TURBINE = new SimpleGeneratorMetaTileEntity[4];
     public static SimpleGeneratorMetaTileEntity[] GAS_TURBINE = new SimpleGeneratorMetaTileEntity[4];
+    public static SimpleGeneratorMetaTileEntity[] NAQUADAH_REACTOR = new SimpleGeneratorMetaTileEntity[4];
     public static MetaTileEntityMagicEnergyAbsorber MAGIC_ENERGY_ABSORBER;
 
     //MULTIBLOCK PARTS SECTION
@@ -399,6 +400,11 @@ public class MetaTileEntities {
         GAS_TURBINE[0] = GregTechAPI.registerMetaTileEntity(490, new SimpleGeneratorMetaTileEntity(gregtechId("gas_turbine.lv"), RecipeMaps.GAS_TURBINE_FUELS, Textures.GAS_TURBINE_OVERLAY, 1));
         GAS_TURBINE[1] = GregTechAPI.registerMetaTileEntity(491, new SimpleGeneratorMetaTileEntity(gregtechId("gas_turbine.mv"), RecipeMaps.GAS_TURBINE_FUELS, Textures.GAS_TURBINE_OVERLAY, 2));
         GAS_TURBINE[2] = GregTechAPI.registerMetaTileEntity(492, new SimpleGeneratorMetaTileEntity(gregtechId("gas_turbine.hv"), RecipeMaps.GAS_TURBINE_FUELS, Textures.GAS_TURBINE_OVERLAY, 3));
+
+        NAQUADAH_REACTOR[0] = GregTechAPI.registerMetaTileEntity(1110, new SimpleGeneratorMetaTileEntity(gregtechId("naquadah_reactor.ev"), RecipeMaps.NAQUADAH_REACTOR_FUELS, Textures.NAQUADAH_REACTOR_OVERLAY, 4));
+        NAQUADAH_REACTOR[1] = GregTechAPI.registerMetaTileEntity(1111, new SimpleGeneratorMetaTileEntity(gregtechId("naquadah_reactor.iv"), RecipeMaps.NAQUADAH_REACTOR_FUELS, Textures.NAQUADAH_REACTOR_OVERLAY, 5));
+        NAQUADAH_REACTOR[2] = GregTechAPI.registerMetaTileEntity(1112, new SimpleGeneratorMetaTileEntity(gregtechId("naquadah_reactor.luv"), RecipeMaps.NAQUADAH_REACTOR_FUELS, Textures.NAQUADAH_REACTOR_OVERLAY, 6));
+        NAQUADAH_REACTOR[3] = GregTechAPI.registerMetaTileEntity(1113, new SimpleGeneratorMetaTileEntity(gregtechId("naquadah_reactor.zpm"), RecipeMaps.NAQUADAH_REACTOR_FUELS, Textures.NAQUADAH_REACTOR_OVERLAY, 7));
 
         MAGIC_ENERGY_ABSORBER = GregTechAPI.registerMetaTileEntity(493, new MetaTileEntityMagicEnergyAbsorber(gregtechId("magic_energy_absorber")));
 

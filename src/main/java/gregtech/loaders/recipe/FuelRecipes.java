@@ -64,6 +64,10 @@ public class FuelRecipes {
         registerPlasmaFuel(Materials.Iron.getPlasma(16), 103219, GTValues.LV);
         registerPlasmaFuel(Materials.Nickel.getPlasma(16), 106905, GTValues.LV);
 
+        //naquadah reactor fuels
+        registerNaquadahReactorFuel(Materials.NaquadahEnriched.getFluid(1), 34725 / 16, GTValues.HV);
+        registerNaquadahReactorFuel(Materials.Naquadria.getFluid(1), 69450 / 16, GTValues.HV);
+
     }
 
     public static void registerPlasmaFuel(FluidStack fuelStack, int duration, int tier) {
@@ -80,6 +84,10 @@ public class FuelRecipes {
 
     public static void registerGasGeneratorFuel(FluidStack fuelStack, int duration, int tier) {
         RecipeMaps.GAS_TURBINE_FUELS.addRecipe(new FuelRecipe(fuelStack, duration, GTValues.V[tier]));
+    }
+
+    public static void registerNaquadahReactorFuel(FluidStack fuelStack, int duration, int tier) {
+        RecipeMaps.NAQUADAH_REACTOR_FUELS.addRecipe(new FuelRecipe(fuelStack, duration, GTValues.V[tier]));
     }
 
     public static void registerSemiFluidGeneratorFuel(FluidStack fuelStack, int duration, int tier) {
